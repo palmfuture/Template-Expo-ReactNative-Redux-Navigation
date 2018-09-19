@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "App",
+    "description": "App",
+    "slug": "vansales",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#263238"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.palmfuture.app",
+      "versionCode": 1,
+      "icon": "./assets/icon.png"
+    }
+  }
+}
